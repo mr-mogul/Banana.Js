@@ -9,4 +9,4 @@ console.log(typeof(z))
 console.log(z)
 console.log(object[2])
 console.log(typeof(big))
-console.log(object2["banana"])``
+console.log(object2["banana"])
