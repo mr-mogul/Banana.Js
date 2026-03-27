@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    font-family: Nunito;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 40%;
+    height: 70%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    padding: 2rem;
+}
+
+input{
+    padding: 1rem;
+    outline: none;
+    
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-top: 1rem;
+}
+input:focus{
+  border-bottom: 1px solid rgba(0,0,0,1);
+
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+
+}
