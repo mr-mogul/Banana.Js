@@ -35,5 +35,5 @@ console.log("THIS IS FOR COMPARISON EQUAL TOs")
 console.log("5" == 5) // == performs coersion before comparison
 console.log("5" === 5) // === compares directly 
 
-console.log(5 == 5) 
-console.log(5 === 5) 
+console.log(5 == 5)
+console.log(5 === 5)
